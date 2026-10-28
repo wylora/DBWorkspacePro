@@ -1,0 +1,15 @@
+{
+  "_comment": "Приложение хранит настройки в SQLite (%APPDATA%\\DBWorkspacePro\\data\\app.sqlite3). Этот файл — только справка по значениям и по переменной окружения DBWP_HOME. Пароли и секреты сюда записывать НЕЛЬЗЯ.",
+  "environment": {
+    "DBWP_HOME": "Необязательно: папка данных приложения (по умолчанию %APPDATA%\\DBWorkspacePro)"
+  },
+  "settings_defaults": {
+    "theme": "light",
+    "max_connections": 5,
+    "connect_timeout": 15,
+    "query_timeout": 60,
+    "fetch_batch_size": 1000,
+    "max_parallel_tasks": 3,
+    "log_level": "INFO"
+  }
+}
